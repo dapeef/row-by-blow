@@ -12,57 +12,7 @@
     <body>
         <div class="box">
             <h1>Client</h1>
-            <h2>created by Alistair White-Horne</h2>
-
-            <div class="main_frame border search_columns">
-                <div class="text_area_outer border">
-                    <textarea id="text_in" placeholder="Type/paste chemical names here...
-You can search multiple chemicals by putting them on new lines..."></textarea>
-                </div>
-                <div class="border">
-                    <div style="margin-bottom: 2mm">
-                        <label style="font-size: large;">Display:</label>
-                    </div>
-                    <div>
-                        <div>
-                            <input type="checkbox" id="hazards" name="hazards" class="checkbox" checked>
-                            <label for="hazards" class="search_options">Main hazards</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="extra_hazards" name="extra_hazards" class="checkbox" checked>
-                            <label for="extra_hazards" class="search_options">Extra hazards</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="hazard_brackets" name="hazard_brackets" class="checkbox" checked>
-                            <label for="hazard_brackets" class="search_options">Include bracket info</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="mass" name="mass" class="checkbox" unchecked>
-                            <label for="mass" class="search_options">Molecular weight</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="density" name="density" class="checkbox" unchecked>
-                            <label for="density" class="search_options">Relative Density</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="mp" name="mp" class="checkbox" unchecked>
-                            <label for="mp" class="search_options">Melting Point</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" id="bp" name="bp" class="checkbox" unchecked>
-                            <label for="bp" class="search_options">Boiling Point</label>
-                        </div>
-                    </div>
-                </div>
-                <button id="go_button" type="button" class="border go_button">
-                    Go!
-                    <!-- <div id="button_status" class="button_status">Running...</div> -->
-                </button>
-            </div>
-
-            <!-- <div class="border main_frame" style="padding-top: 1mm; padding-bottom: 1mm;">
-                <progress id="progress" max="100" value="69" class="progress_bar"></progress>
-            </div> -->
+            <!-- <h2>created by Alistair White-Horne</h2> -->
 
             <div class="output_container_outer border main_frame">
                 <div id="output_container" class="output_container">
@@ -126,8 +76,8 @@ Today is <a href="https://pubchem.ncbi.nlm.nih.gov/compound/887#section=Density"
             </div>
         </div>
 
-        <script src="jquery-3.6.0.min.js"></script>
+        <!-- <script src="jquery-3.6.0.min.js"></script> -->
         <script src="folding_output.js"></script>
-        <script src="search.js"></script>
+        <script src="client.js"></script>
     </body>
 </html>
